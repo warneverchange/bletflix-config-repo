@@ -2,7 +2,7 @@ spring:
   datasource:
     username: admin
     password: password
-    url: bletflix-db/authentication-db
+    url: postgresql://localhost:5432/postgres
   jpa:
     hibernate:
       ddl-auto: create-drop
