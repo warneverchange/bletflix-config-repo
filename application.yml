@@ -2,7 +2,7 @@ spring:
   datasource:
     username: admin
     password: adminka
-    url: jdbc:postgresql://db:5432/postgres
+    url: jdbc:postgresql://bletflix-db:5432/postgres
   jpa:
     hibernate:
       ddl-auto: create-drop
